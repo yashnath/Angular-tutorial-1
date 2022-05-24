@@ -1,0 +1,13 @@
+<input type="text" value= {{txt}} disabled= {{dist}}> //Interpolation
+
+<br/><br/>
+
+<input type="text" [value]=txt [disabled]="dist"> //Property
+<br/><br/>
+
+<input type="text" [value]=txt [disabled]=diab> 
+<br/><br/>
+<button (click)="dis(true)">True</button>
+&nbsp;&nbsp;
+
+<button (click)="dis(false)">False</button>
